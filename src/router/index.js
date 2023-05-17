@@ -9,11 +9,6 @@ const introme = () => import('../components/introme')
 const project = () => import('../components/project')
 
 Vue.use(Router)
-this.$router.push(
-    {
-          path: '',
-    })
-
 export default new Router({
   routes: [
     {
